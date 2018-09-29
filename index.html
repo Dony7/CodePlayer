@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CodePlayer</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav class="display">
+            <h3 class="display_title"><a href="">Code<span class="highlighted_text">Player</span></a> </h3>
+            <div class="display_buttons">
+                <button class="display_link html_button active">
+                    HTML
+                </button>
+                <button class="display_link css_button active">
+                    CSS
+                </button>
+                <button class="display_link js_button active">
+                    JavaScript
+                </button>
+                <button class="display_link output_button active">
+                    Output
+                </button>
+
+            </div>
+        </nav>
+
+        <div class="code_section">
+            <div class="html_code_section section">
+                <span>HTML</span>
+                <textarea class="html"></textarea>
+            </div>
+            <div class="css_code_section section">
+                    <span>CSS</span>
+                    <textarea class="css"></textarea>
+            </div>
+            <div class="js_code_section section">
+                    <span>JS</span>
+                    <textarea class="js"></textarea>
+            </div>
+            <div class="output_code_section section">
+                    <span>Output</span>
+                    <iframe class="output" id="output"></iframe>
+            </div>
+        </div>
+       
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
